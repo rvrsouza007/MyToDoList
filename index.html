@@ -23,7 +23,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form" class="">
+        <form id="edit-form" class="hide">
             <p>edite sua tarefa</p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -36,12 +36,12 @@
             </button>
         </form>
         <div id="toolbar">
-            <div class="search">
+            <div id="search">
                 <h4>pesquise</h4>
                 <form >
                     <input type="text" id="search-input" placeholder="buscar">
                     <button id="erase-button">
-                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-delete-left"></i>
                     </button>
                 </form>
             </div>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo">
+            <div class="todo done">
                 <h3>estou fazendo</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
